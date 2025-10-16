@@ -125,7 +125,7 @@ CIC_Project/
 ├── CIC_tb.v              # Testbench
 ├── xin.txt               # Input samples
 ├── xout.txt              # Output samples
-├── CIC_CHECK.py          # Python validation script
+├── CIC_Check.py          # Python validation script
 ├── Block_Diagram.png     # CIC filter architecture
 ├── Simulation_Results.PNG# Input vs Output plots
 └── README.md             # Project documentation
