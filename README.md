@@ -55,10 +55,7 @@ Below is the block diagram of the implemented **CIC decimation filter**, showing
 Implements a 4-stage CIC filter with:
 - Integrators (`d1`–`d4`) operating at input rate.
 - Comb stages (`d5`–`d8`) operating at decimated output rate.
-- Automatic bit growth management:
-  \[
-  \text{REGWIDTH} = \text{INPUTWIDTH} + N \times \log_2(D)
-  \]
+- Automatic bit growth management.
 
 The design produces:
 - `d_out`: filtered and decimated data output.
