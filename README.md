@@ -75,7 +75,6 @@ python3 CIC_Check.py
 ## ⚙️ Configuration Notes
 - Adjust `D` directly in the testbench before running simulation.  
 - Modify `INPUTWIDTH` and `N` parameters in `CIC.v` to test other architectures.  
-- For large `D`, internal growth is handled by automatic bit-width expansion with +4 headroom bits.  
 - Amplitude scaling logic prevents saturation and distortion at high decimation factors.
 
 ---
